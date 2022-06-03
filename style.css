@@ -1,5 +1,6 @@
 * {
     margin: 0%;
+    padding: 0px;
 }
 header {
 
@@ -15,6 +16,7 @@ main {
     background-color: #2a475e;
     display: inline-block;
     width: 100%;
+    padding: 0px;
 }
 body {
     margin: 0%;
@@ -80,31 +82,29 @@ h2{
 .list-of-games{
     width: 100%;
     background-color: #1b2838;
-    display: flex;
+    display: inline-block;
     
 }
-h4{
+h3{
     
-    color: #c7d5e0; 
+    color: #c7d5e0;
     margin-top: 50px;
     margin-left: 200px;
-    width: 100%;
     height: min-content;
-    display: block;
-    
-    
+    display: block;    
 }
 div.scroll-shop{
     background-color: #171a21;
     overflow-x: scroll;
     white-space: nowrap;
-    margin: 100px;
-    
-    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;    
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 div.scroll-shop a{
-    
     color: #c7d5e0;
     text-align: center;
     padding: 20px;
@@ -121,4 +121,11 @@ div.scroll-shop a:hover{
     height: 100px;
     margin: 10px;
     box-shadow:3px 3px 3px #000000;
+}
+foot-text{
+    background-color: #171a21;
+    color: #c7d5e0;
+}
+footer{
+    background-color: #171a21;
 }
