@@ -30,9 +30,19 @@ h1 {
     margin-left: 19%;
     
 }
+h1:hover{
+    color:rgb(88, 88, 88);
+}
 a{
     text-align: center;
-    margin-left: 10px;   
+    margin-left: 10px;
+    color: #c7d5e0; 
+}
+a:hover{
+    color: rgb(88, 88, 88);
+}
+li:hover{
+    color: rgb(88, 88, 88);
 }
 ul {
     float: left; 
@@ -77,13 +87,15 @@ h2{
     background-color: #375786;
     padding: 50px;
     box-shadow:3px 3px 3px #1b2838;
+    margin-bottom: 30px;
 }
 
 .list-of-games{
     width: 100%;
     background-color: #1b2838;
     display: inline-block;
-    
+    margin-top: 75px;
+    margin-bottom: 20px;
 }
 h3{
     
@@ -121,6 +133,10 @@ div.scroll-shop a:hover{
     height: 100px;
     margin: 10px;
     box-shadow:3px 3px 3px #000000;
+    transition: transform .2s;
+}
+.shop-img:hover{
+    transform: scale(1.5);
 }
 foot-text{
     background-color: #171a21;
@@ -129,3 +145,18 @@ foot-text{
 footer{
     background-color: #171a21;
 }
+::-webkit-scrollbar{
+    width: 15px;
+    background: #2a475e; 
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(3, 0, 49); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0e1014; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
