@@ -76,9 +76,14 @@ p{
     height: max-content;
     background-color: #1b2838;
     margin: 50px;
-    margin-left: 180px;
-    float: left;
     display: block;
+    padding: 10px;
+}
+#main-banner{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
 }
 h2{
     color: #c7d5e0;
