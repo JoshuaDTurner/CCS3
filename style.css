@@ -28,6 +28,7 @@ h1 {
     display: flex;
     float: left;
     margin-left: 19%;
+
     
 }
 h1:hover{
@@ -62,9 +63,6 @@ p{
     color: #c7d5e0;
     padding: 60px;   
     text-align: center;
-    
-    
-
 }
 .game-of-year {
  float: left;
@@ -76,10 +74,10 @@ p{
     height: max-content;
     background-color: #1b2838;
     margin: 50px;
-    display: block;
+    
     padding: 10px;
 }
-#main-banner{
+.main-banner{
     width: 100%;
     height: fit-content;
     display: flex;
@@ -165,3 +163,7 @@ footer{
   ::-webkit-scrollbar-thumb:hover {
     background: #000000; 
   }
+.bundle-banner{
+    margin: 10px;
+    display: inline;
+}
