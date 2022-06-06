@@ -224,3 +224,14 @@ footer{
     margin: 10px;
     display: inline;
 }
+.browse-menu{
+    background-color: #1b2838;
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 500px;
+}
