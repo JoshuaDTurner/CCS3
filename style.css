@@ -29,7 +29,7 @@ h1 {
     float: left;
     margin-left: 19%;    
     overflow: hidden;
-    position: relative;
+    position: relative;  
 }
 
 
@@ -234,4 +234,14 @@ footer{
     overflow-y: scroll;
     overflow-x: hidden;
     height: 500px;
+}
+dl{
+    color: #c7d5e0;
+    text-align: center;
+    background-color:#1b2838;
+    margin: 50px;
+    padding: 25px;
+}
+dt{
+    margin-top: 15px;
 }
